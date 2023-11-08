@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Potterheads</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="images/logo2.webp" alt="logo">
+        </div>
+        <div class="search">
+            <input type="text" id="input-box" placeholder="Search location..">
+            <button id="myBtn">Search</button>
+        </div>
+        <ul>
+            <li class="list"><a href="#home">Home</a></li>
+            <li class="list"><a href="#second">Cards</a></li>
+            <li class="list"><a href="#about">About</a></li>
+            <li class="list"><a href="#more">More</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to HarryPotter World</h1>
+        <p>"Calling all Harry Potter fans! The magic of Hogwarts lives on in our hearts. Let's continue to embrace the wonder of J.K. Rowling's world and share our love for all things wizarding. Accio joy and happiness to you all!"</p>
+       
+        <!-- <button class="btn">Order Now</button> -->
+    </section>
+    <section id="second" class="sbg">
+        <h1 class="h-primary center">Some Cards</h1>
+        <div id="cards">
+            <div class="box">
+                <img src="images/c1.png" alt="logo">
+                <h2 class="h-secondary center">Lightning Scar</h2>
+                <p class="center">
+                    Harry Potter's lightning scar is a symbol of his survival against a deadly curse cast by the dark wizard Voldemort. Shaped like a lightning bolt, it marks his forehead and signifies his extraordinary destiny, resilience, and the connection between him and Voldemort, playing a central role in the Harry Potter series.</p>
+            </div>
+            <div class="box">
+                <img src="images/c2.png" alt="logo">
+                <h2 class="h-secondary center">Harry's Specs</h2>
+                <p class="center">Harry Potter's round glasses, with their distinctive black frames, are an iconic part of his appearance. They serve both a practical and symbolic purpose, reflecting his humility and distinguishing him in the wizarding world. These specs also exemplify Harry's ordinary beginnings and his extraordinary journey as the "Boy Who Lived."</p>
+            </div>
+            <div class="box">
+                <img src="images/c3.png" alt="logo">
+                <h2 class="h-secondary center">Firebolt</h2>
+                <p class="center">
+                    Harry Potter's Firebolt is a high-speed broomstick regarded as one of the best in the wizarding world. It was gifted to him, replacing his earlier Nimbus 2000, symbolizing his prowess in Quidditch and adventures. The Firebolt's speed and excellence are central to the series, emphasizing Harry's talent and courage.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="sbg">
+        <div class="center">
+            Copyright &copy; www.potterhead.com. All rights reserved!
+        </div>
+    </footer>
+   
+</body>
+
+</html>

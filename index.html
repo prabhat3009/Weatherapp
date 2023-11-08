@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="images/logo2.webp" alt="logo">
+        </div>
+        <div class="search">
+            <input type="text" id="city" placeholder="Search location..">
+            <button id="myBtn" type="submit">Search</button>
+        </div>
+        <ul>
+            <li class="list"><a href="#home">Home</a></li>
+            <li class="list"><a href="#about">About</a></li>
+            <li class="list"><a href="#more">More</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <div class="mainpage">
+            <div class="weather">
+                <img src="images/logo1.jpg" alt="image" class="wicon">
+                <h1 class="temp1"><span id="temp"></span>°C</h1>
+                <p class="ptag">Feels like: <span id="feels_like"></span>°C</p>
+                <h2 class="name"><span id="cityName"></span></h2>
+                <div class="details">
+                    <div class="col">
+                        <img src="images/humidity.png">
+                        <div>
+                            <p class="ptag">Humidity is: <span id="humidity"></span>%</p>
+                            <p class="ptag">clouds: <span id="cloud_pct"></span></p>
+                            <p class="ptag">Sunrise: <span id="sunrise"></span></p>
+                            <p class="ptag">Sunset: <span id="sunset"></span></p>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="images/wind.png">
+                        <div>
+                            <p class="wind ptag">Wind Speed: <span id="wind_speed"></span>kmph</p>
+                            <p class="ptag">Wind Degrees: <span id="wind_degrees"></span></p>
+                            <p class="ptag">Min Temp: <span id="min_temp"></span>°C</p>
+                            <p class="ptag">Max Temp: <span id="max_temp"></span>°C</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
